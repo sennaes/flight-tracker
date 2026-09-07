@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+    height: 56px;
+    display: flex;  /*use when u have things needed to be aligned, so they are in a row and u can position them*/
+    align-items: center;    /*vertically center the content inside*/
+    padding: 0 24px;    /*add space inside vert: 0, hori: 24*/
+    background-color: #f7e6ca;
+    position: sticky;   /* dont move */
+    top: 0;
+
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.header h1 {    /*Selects the h1 that is inside className = "header"*/
+    font-size: 32px;
+    font-weight: 600;   /*semi-bold*/
+    margin: 0;      /*remove the default margin which is outside spacing around the text*/
+    color: #25291c;
+}
